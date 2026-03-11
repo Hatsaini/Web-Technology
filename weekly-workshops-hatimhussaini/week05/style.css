@@ -1,0 +1,40 @@
+body{
+    background-color: cyan;
+    font-family: 'papyrus';
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: lightcyan;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+h2{
+   color: purple;
+   font-weight: bold;
+}
+h3{
+    color: purple;
+    font-weight: bold;
+    font-style: italic;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+dl{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+dt{
+    font-weight: bold;
+    font-size: 23px;
+}
+dd{
+    font-style: italic;
+    font-size: 20px;
+}
