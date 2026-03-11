@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <title>my first html page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <header>
+        <h1>Welcome</h1>
+        <p id="intro"> My name is Hatim, and I am a student of Bachelors of IT with majors
+             in Data science and Cyber Security
+        </p>
+    </header>
+
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Unit Code</th>
+                        <th>Unit Name</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>COMP 2200</td>
+                        <td>    Data Science</td>
+                        <td>    2024</td>
+                    </tr>
+                    <tr>
+                        <td>COMP 1350</td>
+                        <td>    Introduction to Database Design and Management</td>
+                        <td>    2024</td>
+                    </tr>
+                    <tr>
+                        <td>COMP 1010</td>
+                        <td>    Fundamentals of Computer Science</td>
+                        <td>    2024</td>
+                    </tr>
+                    <tr>
+                        <td>STAT 2170</td>
+                        <td>    Applied Statistics</td>
+                        <td>    2024</td>
+                    </tr>
+                    <tr>
+                        <td>COMP1750</td>
+                        <td>    Introduction to Business Information Systems</td>
+                        <td>    2024</td>
+                    </tr>
+                    <tr>
+                        <td>COMP1000</td>
+                        <td>Introduction to Computer Technology</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>COMP 1300</td>
+                        <td>Introduction to Cyber Security</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>STAT1170</td>
+                        <td>Introductory Statistics </td>
+                        <td>2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section> 
+        <div class = "container">
+            <section id="section 1">
+            <h2>Example: Embedding local image</h2>
+            <figure>
+                <img id="swap" src="images/download.jpeg" alt="A description of the local" width="300" height="200">
+                <figcaption>This is my local image</figcaption>
+            </figure>
+            <button id="swapButton">swap embedded image</button>
+
+            </section>
+        <section id="section 2">
+            <h2>Example: Embedding an url image</h2>
+        <figure>
+          <img src="https://www.psdstack.com/wp-content/uploads/2019/08/copyright-free-images-750x420.jpg" alt="A description of the remote" width="300" height="200">
+          <figcaption>This is a remote image</figcaption>
+        </figure>
+        </section>
+        <section id="Video Content">
+            <h2>Embedded Video</h2>
+            <video controls width = "600" height="500">
+                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm">
+            </video>
+        </section>
+        </div>
+
+        <div class="grid">
+            <header>
+                HEADER
+            </header>
+
+            <aside class="left">
+                LEFT
+            </aside>
+            <article>
+                ARTICLE
+            </article>
+            <aside class="right">
+                RIGHT
+            </aside>
+            <footer>
+                FOOTER
+            </footer>
+        </div>
+        <footer>
+            <p>&copy; Hatim 2025</p>
+        </footer>
+
+
+    <p>Button for toggling day and night mode</p>
+    <button id="toggleMode">Toggle Dark Mode</button>
+    <script src="script.js"></script>
+</body>
+</html>
